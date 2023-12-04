@@ -1,13 +1,72 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:opsz,wght@8..30,100;8..30,200;8..30,300;8..30,400;8..30,500;8..30,600;8..30,700;8..30,800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* font-family: 'Piazzolla',serif;
+font-family: 'Poppins',sans-serif; */
+.navbar{
+  box-shadow: 0 8px 6px -6px grey;
+  --webkit-box-shadow: 0 8px 6px -6px grey;
+  /* border-bottom: 0.3px solid grey !important; */
+}
+.navbar-brand{
+  font-weight: 600;
+}
+.nav-link{
+  /* font-weight: 400 !important; */
+}
+.footer{
+  color: #fff;
+  background: linear-gradient(to right, #434343,#000000);
+  padding: 10px;
+}
+.footer a{
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+}
+.footer a:hover{
+  color: #ffefba;
+}
+
+/* Page Not Found Css */
+
+.pnf{
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.pnf .pnf-title{
+  font-size: 70px;
+  font-weight: 500;
+}
+.pnf .pnf-heading{
+  font-weight: 300;
+}
+
+/* Contact Page Css */
+
+.contactus {
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* MBD Css */
+
+@media (min-width: 1025px) {
+  .h-custom-2 {
+    height: 100%;
+  }
 }
